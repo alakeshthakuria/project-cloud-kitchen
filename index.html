@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shushila’s Kitchen</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -25,33 +25,65 @@
   <section id="menu">
     <h2>Our Dishes</h2>
     <div class="menu-items">
-      <div class="dish">
-        <img src="images/rajma-chawal.png" alt="Rajma Chawal">
+      <div class="dish" onclick="toggleIngredients(this)">
+        <img src="images/rajma-chawal.png" alt="Rajma Chawal" />
         <h3>Rajma Chawal</h3>
         <p>₹120</p>
+        <div class="ingredients hidden">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>Rajma</li>
+            <li>Rice</li>
+            <li>Onions</li>
+            <li>Tomatoes</li>
+            <li>Spices</li>
+          </ul>
+        </div>
       </div>
-      <div class="dish">
-        <img src="images/paneer-butter-masala.jpg" alt="Paneer Butter Masala">
+
+      <div class="dish" onclick="toggleIngredients(this)">
+        <img src="images/paneer-butter-masala.jpg" alt="Paneer Butter Masala" />
         <h3>Paneer Butter Masala</h3>
         <p>₹150</p>
+        <div class="ingredients hidden">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>Paneer</li>
+            <li>Butter</li>
+            <li>Tomatoes</li>
+            <li>Cashews</li>
+            <li>Spices</li>
+          </ul>
+        </div>
       </div>
-      <div class="dish">
-        <img src="images/chicken-curry-1.jpg" alt="Chicken Curry">
+
+      <div class="dish" onclick="toggleIngredients(this)">
+        <img src="images/chicken-curry-1.jpg" alt="Chicken Curry" />
         <h3>Chicken Curry</h3>
         <p>₹180</p>
+        <div class="ingredients hidden">
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>Chicken</li>
+            <li>Onions</li>
+            <li>Tomatoes</li>
+            <li>Spices</li>
+            <li>Garlic & Ginger</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="story">
     <h2>From Market to Plate</h2>
-     <p>
-    Every morning, I visit the local farmer's market to select the freshest vegetables and high-quality chicken. 
-    I personally handpick each item to ensure the best taste and hygiene for my dishes.
-  </p>
-  <p>
-    All meals are cooked in a clean home kitchen using traditional spices and cooking methods, just like how you'd enjoy at home.
-  </p>
+    <p>
+      Every morning, I visit the local farmer's market to select the freshest vegetables and high-quality chicken.
+      I personally handpick each item to ensure the best taste and hygiene for my dishes.
+    </p>
+    <p>
+      All meals are cooked in a clean home kitchen using traditional spices and cooking methods, just like how you'd enjoy at home.
+    </p>
   </section>
 
   <section id="contact">
