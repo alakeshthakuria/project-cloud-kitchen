@@ -24,7 +24,7 @@ header {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 /* Video wrapper centers the video */
@@ -83,6 +83,10 @@ nav ul li a {
   margin: 40px auto;
   padding: 0 20px;
   font-size: 1.1rem;
+}
+
+section {
+  margin-bottom: 40px; /* Adjust as needed (e.g., 20px, 60px) */
 }
 
 /* Footer */
